@@ -25,7 +25,6 @@ p {
   text-align: left;
   color: black;
   font-family:'Times New Roman', Times, serif;
-  color: #8B0000;
   font-size: 25px;
   margin-inline-start: 1px;
   margin-inline-end: 1px;
@@ -75,7 +74,7 @@ p {
     font-style:italic;
     padding:15px ;
   }
-  /* class list proj defined for project style defined*/
+  /* class list proj defined for project style defined, inspiration drawn from https://www.w3schools.com/*/
 .projlist{padding: 15px;
           padding-top: 3px;
           padding-bottom: 3px ;}
@@ -119,8 +118,8 @@ p {
   /*NavigationOption CSS Begins for <a>*/
   .topnav a {
 
-    color: yellow;
-    background-color: #65658a;
+    color: yellow; /*https://www.monster.ca/*/
+    background-color: #65658a; /*inspiration drawn from https://www.w3schools.com/*/
     padding: 20px;
     font-size: 17px;
     text-decoration: none;
@@ -129,7 +128,7 @@ p {
   /*NavigationOption CSS Begins for hover*/
   .topnav a:hover {
     background-color: #1a1818c0;
-    color: black;
+    color: rgb(46, 42, 42);
   }
 
 /*CSS for NavigationOption ends */
@@ -137,16 +136,19 @@ p {
 .out{
   margin-left:45% ;
   color: rgb(3, 37, 26);
+  padding: 20px;
+  font-size: 20px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .out a:link {
-  color:#8B0000;
-  font-size: 20px; 
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#8B0000;/*inspiration drawn from https://www.w3schools.com/*/
+  
 }
 .out a:visited {
   color:#dcee9a;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', sans-serif;
   font-size: 20px;
 }
 .out a:hover {background:#e96671;}
